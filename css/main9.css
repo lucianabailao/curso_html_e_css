@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+}
+
+#layout{
+    width: 100%;
+    height:100vh;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#menu_superior{
+    height: 200px;
+    background: #3578E5;
+    background-image: url("https://img.freepik.com/fotos-gratis/loja-de-roupas-turva-em-shopping_1258-5.jpg?size=626&ext=jpg");
+    position: fixed;
+    width: 100%;
+}
+#menu_superior td{
+    display: block
+}
+#menu_esquerdo{
+    width: 300px;
+    background: gray;
+    display: block;
+    height: 100%;
+    border:1px solid darkgray;
+    border-radius: 0px 10px 0px 0px;
+    margin-top: 220px;
+    position:fixed;
+}
+#menu_esquerdo li a{
+    background-color: white;
+    display: block;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    line-height: 40px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+
+}
+#menu_esquerdo li a:hover{
+    font-weight: bold;
+    background-color: black;
+    color: blanchedalmond;
+    width: 200px;
+}
+#conteudo {
+    padding-top: 200px;
+    width: 100%;
+    padding-left: 300px;
+}
+#titulo_menu_superior{
+    color:lightseagreen;
+    font-size: 100px;
+    text-shadow: 5px 5px black;
+}
+#menu_esquerdo ul{
+    text-align: left;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.Blusas{
+    background-color: blueviolet;
+}
+
+.Calças{
+    background-color:coral;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid darkorange;
+    border-radius: 10px;
+    text-align:center;
+}
+img {
+    width: 300px;
+    }
